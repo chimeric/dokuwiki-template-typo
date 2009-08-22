@@ -1,0 +1,11 @@
+:!: Looks like you haven't created a navigation yet.
+Do it now by creating the following page: LINK
+
+Once you've created the page add an unordered list
+of links to create the navigation i.e.:
+
+<file>  
+* [[link 1]]
+* [[link 2]]
+* [[link 3]]
+</file>

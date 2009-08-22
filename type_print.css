@@ -1,0 +1,9 @@
+/**
+ * Print CSS for DokuWiki template Type
+ * 
+ * @author Michael Klier <chi@chimeric.de>
+ * vim:ts=2:sw=2:et:enc=8tf-8:
+ */
+div#sidebar {
+  display: none;
+}

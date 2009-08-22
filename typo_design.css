@@ -1,0 +1,381 @@
+/**
+ * CSS for DokuWiki template Typo
+ *
+ * @author Michael Klier <chi@chimeric.de> 
+ */
+body {
+  margin: 0;
+  font-size: 100%;
+  background: __text__;
+}
+
+div.dokuwiki {
+  font-family: Georgia, serif, sans-serif;
+  font-size: 1em;
+  line-height: 150%;
+  padding: 0;
+  margin: 0;
+  float: left;
+}
+
+div.dokuwiki div#header {
+  width: 100%;
+}
+
+div.dokuwiki .logo {
+  font-size: 280%;
+  line-height: 100%;
+  text-align: left;
+  color: __background_alt__;
+}
+
+div.dokuwiki div.navigation {
+  margin: 1em 0 0 0;
+  padding: 1em 0 0 0;
+  text-align: left;
+  width: 100%;
+}
+
+div.dokuwiki div.navigation ul {
+  margin: 0;
+  width: 100%;
+  border-bottom: 1px dotted __border_sb__;
+}
+
+div.dokuwiki div.navigation li {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+div.dokuwiki div.navigation div.li {
+  margin: 0;
+  padding: 0;
+  border-top: 1px dotted __border_sb__;
+}
+
+div.dokuwiki div.navigation div.li a {
+  color: __background__ !important;
+  font-size: 160%;
+  line-height: 120%;
+  text-decoration: none;
+  display: block;
+  padding: 0.2em;
+}
+
+div.dokuwiki div.navigation div.li {
+  display: block;
+}
+
+div.dokuwiki div.navigation div.li a:hover {
+  color: __existing__ !important;
+}
+
+div.dokuwiki div.navigation div.li a.active {
+  color: __existing__;
+}
+
+div.dokuwiki div.bar {
+  background: none;
+  border-top: none;
+  border-bottom: none;
+  z-index: 100;
+}
+
+div.dokuwiki div#bar__bottom {
+  padding-top: 3em;
+}
+
+div.dokuwiki div#content {
+  background: __background__;
+  width: 70%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  min-height: 1600px;
+}
+
+div.dokuwiki div#sidebar {
+  color: __background_alt__;
+  padding-left: 2em;
+  padding-right: 2em;
+  padding-top: 0.3em;
+  position: absolute;
+  left: 70%;
+}
+
+div.dokuwiki div#sidebar .doc {
+  padding-top: 2em;
+  font-size: 70%;
+}
+
+div.dokuwiki div#sidebar a:hover {
+  color: __existing__ !important;
+}
+
+div.dokuwiki div.sidebar_box {
+  padding: 2em 1em 2em 1.5em;
+}
+
+div.dokuwiki div.sidebar_box ul {
+  margin: 0;
+}
+
+div.dokuwiki div#pagemeta {
+  float: left;
+  text-align: center;
+  border-top: 1px dotted __border_sb__;
+  padding: 2em 1em 1em 1em;
+}
+
+div.dokuwiki div#pagemeta a {
+  margin: 0 1em 0 1em;
+}
+
+div.dokuwiki div#sidebar h1 a {
+  color: __background_alt__ !important;
+}
+
+div.dokuwiki div.stylefoot {
+  padding: 1em;
+}
+
+div.dokuwiki div.footer {
+  float: left;
+  width: 70%;
+  padding-bottom: 2em;
+  border-bottom: 1px dotted __border_sb__;
+  margin: 1em 0 0 1em;
+}
+
+div.dokuwiki div.logo {
+  float: none;
+}
+
+div.dokuwiki div.content {
+  padding-left: 1em;
+  padding-right: 1em;
+}
+
+div.dokuwiki div#bar__bottom {
+  margin: 1em 0.8em 0.5em 0.8em;
+}
+
+div.dokuwiki div.page {
+  padding: 2em 2.5em 2em 2.5em;
+  margin: 0;
+  border-right: 1px dotted __border__;
+}
+
+div.dokuwiki h1 a,
+div.dokuwiki h2 a,
+div.dokuwiki h3 a,
+div.dokuwiki h4 a,
+div.dokuwiki h5 a {
+  line-height: 100%;
+  font-weight: normal;
+  margin-top: 1em;
+  text-align: left;
+}
+
+div.dokuwiki h1,
+div.dokuwiki h2 {
+  border: none;
+  margin-left: 0;
+}
+
+div.dokuwiki h1 {
+  font-size: 180%;
+}
+div.dokuwiki h1 a {
+  font-weight: bold !important;
+}
+
+div.dokuwiki h2 {
+  font-size: 140%;
+  margin-left: 0;
+}
+
+div.dokuwiki h2 a {
+  font-weight: bold;
+}
+
+div.dokuwiki a.urlextern,
+div.dokuwiki a.interwiki {
+  background: none !important;
+  padding-left: 0 !important;
+}
+
+div.dokuwiki div#toc__header {
+  background: __background_alt__;
+  margin: 0;
+  font-size: 150%;
+  color: __text__;
+  border: none;
+  padding: 0.5em;
+}
+
+div.dokuwiki div.toc {
+  width: 93%;
+  padding: 0;
+  font-size: 100%;
+  float: left;
+  margin: 1.8em 1.8em 0em 1.8em;
+}
+
+div.dokuwiki div.toc ul {
+  margin-left: 0;
+  padding-left: 0.2em;
+}
+
+div.dokuwiki div.toc ul div.li {
+  line-height: 140%;
+}
+
+div.dokuwiki div.toc a {
+  color: __text__ !important;
+}
+
+div.dokuwiki div#toc__inside {
+  border: none;
+  padding: 0 1.8em 1.8em 1.8em;
+  background: __background_alt__;
+}
+
+div.dokuwiki span.toc_open,
+div.dokuwiki span.toc_close {
+  border: 0.4em solid __background_alt__;
+  float: right;
+  display: block;
+  margin: 0.4em 0.4em 0 0;
+}
+
+div.dokuwiki span.toc_open span,
+div.dokuwiki span.toc_close span {
+  display: none;
+}
+
+div.dokuwiki span.toc_open {
+  margin-top: 0.4em;
+  border-top: 0.4em solid #202020;
+}
+
+div.dokuwiki span.toc_close {
+  margin-top: 0;
+  border-bottom: 0.4em solid #202020;
+}
+
+div.dokuwiki pre.code,
+div.dokuwiki pre.file {
+  font-size: 90% !important;
+  background: __background_alt__;
+}
+
+div.dokuwiki code {
+  font-size: 95%;
+}
+
+div.dokuwiki a.urlextern {
+  background: url(images/icon-urlextern.png) no-repeat center left;
+  padding-left: 19px;
+}
+
+div.dokuwiki div.secedit input.button {
+  color: __background_neu__ !important;
+  background: none !important;
+  border: none;
+}
+
+div.dokuwiki a.wikilink1:hover,
+div.dokuwiki a.urlextern:hover,
+div.dokuwiki a.interwiki:hover {
+  color: __existing__ !important;
+}
+
+div.dokuwiki div.secedit input.button:hover {
+  color: __existing__ !important;
+}
+
+div.dokuwiki a.action {
+  text-decoration: none;
+  color: __background_alt__;
+}
+
+div.dokuwiki a.action:hover {
+  color: __existing__;
+  text-decoration: underline;
+}
+
+div.dokuwiki ul,
+div.dokuwiki ol {
+  margin-bottom: 1.4em;
+}
+
+div.dokuwiki ol {
+  margin-left: 2em;
+}
+
+div.dokuwiki div.level1 {
+  margin-left: 3px;
+}
+
+div.dokuwiki div.level2 {
+  margin-left: 10px;
+}
+
+div.dokuwiki h3 {font-size: 130%; margin-left: 20px; border-bottom: none; font-weight: bold;}
+div.dokuwiki h4 {font-size: 120%; margin-left: 40px; border-bottom: none; font-weight: bold;}
+div.dokuwiki h5 {font-size: 100%; margin-left: 60px; border-bottom: none; font-weight: bold;}
+
+div.dokuwiki div.level3 {margin-left: 23px;}
+div.dokuwiki div.level4 {margin-left: 43px;}
+div.dokuwiki div.level5 {margin-left: 63px;}
+
+/* Additional Plugin CSS */
+div.dokuwiki h2 a#discussion__section {
+  background: url(images/icon-discussion-big.png) no-repeat;
+  padding-left: 96px;
+  display: block;
+  padding-top: 55px;
+}
+
+div.dokuwiki div.tags span {
+  background: none;
+  padding-left: 0;
+}
+
+div.dokuwiki div.inclmeta div.tags {
+  float: left !important;
+}
+
+div.dokuwiki abbr.published,
+div.dokuwiki span.author {
+  background: none !important;
+  padding: 0 !important;
+}
+
+div.dokuwiki div.inclmeta {
+  margin: 0 0 5em 0;
+  padding-top: 0.5em;
+  clear: both;
+}
+
+div.dokuwiki div.inclmeta a.permalink {
+  background: none; 
+  padding-left: 0;
+}
+
+div.dokuwiki div.inclmeta span.comment {
+  background: url(images/icon-discussion) no-repeat center left;
+  padding-left: 24px;
+}
+
+div.dokuwiki div.comment_wrapper {
+  margin-top: 2em !important;
+  background: none;
+  margin: 0;
+  padding: 0em 2em 0 2em;
+}
+/**
+ * vim:ts=2:sw=2:et:enc=utf-8:
+ */
