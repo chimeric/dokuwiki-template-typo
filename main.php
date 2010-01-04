@@ -73,6 +73,10 @@ require_once(DOKU_TPLINC . 'tpl_functions.php');
       <?php tpl_actions()?>
     </div>
 
+    <div id="search">
+      <?php tpl_searchform()?>
+    </div>
+
     <div id="pagemeta">
       <?php tpl_license(false);?>
       <br />

@@ -132,6 +132,17 @@ div.dokuwiki div#pagemeta a {
   margin: 0 1em 0 1em;
 }
 
+div.dokuwiki div#search {
+  border-top: 1px dotted __border_sb__;
+  padding: 1em;
+  text-align: center;
+}
+
+div.dokuwiki div.ajax_qsearch {
+  right: 337px;
+  background: __text__;
+}
+
 div.dokuwiki div#sidebar h1 a {
   color: __background_alt__ !important;
 }
