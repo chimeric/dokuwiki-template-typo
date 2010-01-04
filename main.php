@@ -82,7 +82,7 @@ require_once(DOKU_TPLINC . 'tpl_functions.php');
       <br />
 
       <a href="http://validator.w3.org/check?uri=referer"><img src="http://www.w3.org/Icons/valid-xhtml10-blue" alt="Valid XHTML 1.0 Transitional" height="31" width="88" /></a>
-      <a href="http://jigsaw.w3.org/css-validator/validator?uri=referer&amp;profile=css3&amp;usermedium=all&amp;warning=1"><img style="border:0;width:88px;height:31px" src="http://jigsaw.w3.org/css-validator/images/vcss-blue" alt="Valid CSS!" /></a>
+      <a href="http://jigsaw.w3.org/css-validator/check/referer?profile=css3"><img style="border:0;width:88px;height:31px" src="http://jigsaw.w3.org/css-validator/images/vcss-blue" alt="Valid CSS!" /></a>
       <div class="clearer"></div>
       <div class="doc">
         <?php tpl_pageinfo()?>
