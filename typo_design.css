@@ -75,6 +75,11 @@ div.dokuwiki div.navigation div.li a.active {
   color: __existing__;
 }
 
+div.dokuwiki div#media__left,
+div.dokuwiki div#media__right {
+  background: __background__ !important;
+}
+
 div.dokuwiki div.bar {
   background: none;
   border-top: none;
