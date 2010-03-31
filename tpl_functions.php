@@ -14,6 +14,8 @@ function tpl_navigation() {
     global $ID;
     global $conf;
     $navpage = tpl_getConf('navigation_page');
+    list($ns, $chunk) = explode(':', $ID, 2);
+    $navpage = (page_exists($ns.':'.$navpage)) ? $ns.':'.$navpage : $navpage;
 
     print '<div class="navigation">' . DOKU_LF;
     if(!page_exists($navpage)) {
