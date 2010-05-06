@@ -6,13 +6,15 @@
 ; print, screen and rtl are supported. rtl styles are loaded additionally
 ; to screen styles if a right-to-left language is selected (eg. hebrew)
 [stylesheets]
-layout.css      = screen
-design.css      = screen
-typo_design.css = screen
-style.css       = screen
-media.css       = screen
-_admin.css      = screen
-_linkwiz.css    = screen
+layout.css        = screen
+design.css        = screen
+typo_design.css   = screen
+style.css         = screen
+media.css         = screen
+_admin.css        = screen
+_linkwiz.css      = screen
+_mediaoptions.css = screen
+_subscription.css = screen
 
 rtl.css         = rtl
 print.css       = print
