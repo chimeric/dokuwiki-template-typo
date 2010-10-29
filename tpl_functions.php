@@ -38,7 +38,7 @@ function tpl_navigation() {
  * @author Michael Klier <chi@chimeric.de>
  */
 function tpl_actions() {
-    $actions = array('admin', 'revert', 'edit', 'history', 'recent', 'backlink', 'subscribe', 'subscribens', 'index', 'login', 'profile');
+    $actions = array('admin', 'revert', 'edit', 'history', 'recent', 'backlink', 'subscription', 'index', 'login', 'profile');
 
     print '<div class="sidebar_box">' . DOKU_LF;
     print '  <ul>' . DOKU_LF;
