@@ -14,8 +14,6 @@
 
 // must be run from within DokuWiki
 if (!defined('DOKU_INC')) die();
-require_once(DOKU_TPLINC . 'tpl_functions.php');
-
 ?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
@@ -62,32 +60,7 @@ require_once(DOKU_TPLINC . 'tpl_functions.php');
   </div>
 
   <div id="sidebar">
-    <div id="header">
-      <div class="logo">
-        <?php tpl_link(wl(),$conf['title'],'name="dokuwiki__top" id="dokuwiki__top" accesskey="h" title="[H]"')?>
-      </div>
-      <?php tpl_navigation() ?>
-    </div>
-
-    <div class="actions">
-      <?php tpl_actions()?>
-    </div>
-
-    <div id="search">
-      <?php tpl_searchform()?>
-    </div>
-
-    <div id="pagemeta">
-      <?php tpl_license(false);?>
-      <br />
-
-      <a href="http://validator.w3.org/check?uri=referer"><img src="http://www.w3.org/Icons/valid-xhtml10-blue" alt="Valid XHTML 1.0 Transitional" height="31" width="88" /></a>
-      <a href="http://jigsaw.w3.org/css-validator/check/referer?profile=css3"><img style="border:0;width:88px;height:31px" src="http://jigsaw.w3.org/css-validator/images/vcss-blue" alt="Valid CSS!" /></a>
-      <div class="clearer"></div>
-      <div class="doc">
-        <?php tpl_pageinfo()?>
-      </div>
-    </div>
+    <?php require_once(DOKU_TPLINC.'sidebar.html')?>
   </div>
 
   <?php flush()?>
