@@ -392,6 +392,16 @@ div.dokuwiki div.comment_wrapper {
   margin: 0;
   padding: 0em 2em 0 2em;
 }
+
+div.dokuwiki div.notify,
+div.dokuwiki div.error,
+div.dokuwiki div.info,
+div.dokuwiki div.success {
+  position: relative !important;
+  z-index: 1;
+  width: 205%;
+}
+
 /**
  * vim:ts=2:sw=2:et:enc=utf-8:
  */
